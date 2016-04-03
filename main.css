@@ -1,0 +1,99 @@
+@import url(http://db.onlinewebfonts.com/c/15b543784a28c07ac981cee1d665fbb3?family=RamaSlabMW01-Heavy);
+
+*{ margin: 0 auto;}
+
+@font-face {font-family: "RamaSlabMW01-Heavy";
+    src: url("http://db.onlinewebfonts.com/t/15b543784a28c07ac981cee1d665fbb3.eot");
+    src: url("http://db.onlinewebfonts.com/t/15b543784a28c07ac981cee1d665fbb3.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/15b543784a28c07ac981cee1d665fbb3.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/15b543784a28c07ac981cee1d665fbb3.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/15b543784a28c07ac981cee1d665fbb3.svg#RamaSlabMW01-Heavy") format("svg");
+}
+
+@font-face {
+    font-family: "American Captain";
+    src: url("../fonts/the-fontry_american-captain/American Captain.ttf") format(truetype);
+}
+
+body {
+    background:black; 
+    margin: 0 auto; 
+    height:2000px;
+}
+
+#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: black; 
+    height: 80px; 
+    width: 100%;
+    font-size: 30px;
+}
+
+#film-title{
+    font-family: "RamaSlabMW01-Heavy", "American Captain";
+    letter-spacing: 1.2px;
+    font-size: 90px;
+    color: orange;
+    text-shadow: 4px 4px red;
+}
+
+
+#nav {
+    margin-left: 30px;
+    margin-top: 40px;
+    word-spacing: 20px;
+    letter-spacing: 1.2px;
+    font-family:"American Captain", courier, georgia, times,serif; 
+}
+    
+#page1 {
+    height:1100px;
+    width:1000px;
+    background:#ff2e2e;
+    padding-top:110px;
+    }
+    
+#page2 {
+    height:1100px;
+    width:1000px;
+    background:#bf1e3e;
+    padding-top:150px;
+}
+    
+#page3 {
+    height:1100px;
+    width:1000px;
+    background:#9f1e3e;
+    padding-top:150px;
+}
+
+#sub-bar {
+    height:80px;
+    width:1000px;
+    padding-top:20px;
+    color:yellow;
+}
+
+.sub-page{
+    padding-left:50px;
+}
+    
+.page-padding {
+    height:50px; 
+    width:100%;
+}
+
+a { 
+    color:yellow; 
+    text-decoration:none;
+    word-spacing: 0px;
+}
+
+p {
+    font-family:"American Captain";
+}
+    
+a:hover { text-decoration:underline;}
+
